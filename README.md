@@ -1,7 +1,7 @@
 # gpt_quick_start
 
 
-#0) Make a new python virtual environment
+# 0) Make a new python virtual environment
 
 pip install venv (in case you dont have venv installed)
 
