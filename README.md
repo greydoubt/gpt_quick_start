@@ -7,9 +7,11 @@ pip install venv (in case you dont have venv installed)
 
 python -m venv /path/to/new/virtual/environment
 
-## So something like:
+## Specifically:
 cd go/to/some/directory
+
 python -m venv gpt_env
+
 source gpt_env/bin/activate
 
 ## At this point forward, you will be in that environment and all your libraries will be installed in isolation
