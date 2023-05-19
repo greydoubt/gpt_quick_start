@@ -1,6 +1,5 @@
 # gpt_quick_start
 
-chat_gpt_quickstart
 
 #0) Make a new python virtual environment
 
@@ -8,12 +7,12 @@ pip install venv (in case you dont have venv installed)
 
 python -m venv /path/to/new/virtual/environment
 
-#So something like:
+# So something like:
 cd go/to/some/directory
 python -m venv gpt_env
 source gpt_env/bin/activate
 
-#At this point forward, you will be in that environment and all your libraries will be installed in isolation
+# At this point forward, you will be in that environment and all your libraries will be installed in isolation
 
 # https://docs.python.org/3/library/venv.html
 
@@ -29,17 +28,17 @@ source gpt_env/bin/activate
 # To install the OpenAI Python library:
 
 pip install openai
-#(pip3 install openai if path settings arent set)
+### (pip3 install openai if path settings arent set)
 
 
-#2) Set API key
+# 2) Set API key
 #The library needs to be configured with your account's API key, which you obtain from your OpenAI account.
 
-#You can either set it as the OPENAI_API_KEY environment variable before using the library:
+# You can either set it as the OPENAI_API_KEY environment variable before using the library:
 
 export OPENAI_API_KEY='sk-...'
 
-#Or, within your python script, set openai.api_key to its value:
+# Or, within your python script, set openai.api_key to its value:
 
 import openai
 openai.api_key = "sk-..."
