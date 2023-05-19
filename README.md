@@ -20,7 +20,7 @@ source gpt_env/bin/activate
 # https://stackoverflow.com/questions/70242667/how-to-create-venv
 
 # Windows-specific instructions here:
-#https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
+# https://mothergeo-py.readthedocs.io/en/latest/development/how-to/venv-win.html
 
 
 
